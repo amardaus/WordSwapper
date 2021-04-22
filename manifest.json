@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Word Swapper",
+	"version": "1.0",
+	"browser_action": {
+		"default_icon": "off.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"activeTab",
+    		"storage"
+  	],
+	"background": {
+    		"scripts": ["background.js"]
+  	}
+}

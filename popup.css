@@ -1,0 +1,52 @@
+body{
+    color: #fff;
+    font-family: 'Trebuchet MS', sans-serif;
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #073b4c;
+  }
+  .btn{
+    color: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .btnOnOff{
+    padding: 10px;
+    min-width: 200px;
+    border-radius: 10px;
+    width: 100%;
+  }
+	.btnOff{
+		background-color: #ef476f;
+	}
+	.btnOn{
+		background-color: #06d6a0;
+	}
+  .btnAddWord{
+    background-color: #118ab2;
+    margin-top: 10px;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0;
+    padding-top: 10px;
+  }
+  li{
+    font-size: larger;
+    border-style: solid;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+  .content{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  input{
+    flex-grow: 1;
+  }

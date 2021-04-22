@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Swapper</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+  </head>
+  <body>
+    <h1>WordChanger</h1>
+    <button id="btnOnOff" class="btn btnOnOff btnOn">ON</button>
+    <div class="content">
+      <ul id="wordList"></ul>
+      <form id="addWord">
+        <div class="container">
+          <input type="text" id="word" name="word" placeholder="word">
+        <p>&nbsp;&rarr;&nbsp;</p>
+        <input type="text" id="mapping" name="mapping" placeholder="mapping">
+        </div>
+        <input type="submit" class="btn btnAddWord" value="add word!">
+      </form>
+    </div>
+  </body>
+</html>
+<script src="popup.js"></script>
